@@ -9,7 +9,6 @@
 }
 header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     height: 15vh;
 }
@@ -22,20 +21,20 @@ header nav {
 header img {
     padding-left: 2vw;
     width: 8vw;
+   
 }
-.busca {
-    width: 60%;
+.menu {
+    width: 80%;
     display: flex;
     justify-content: flex-end;
     padding-right: 2vw;
-    
+  
 }
 
 .menuList {
     display: flex;
     justify-content: space-evenly;
-    border: solid;
-
+   
 
 }
 
@@ -58,7 +57,7 @@ header img {
 input {
     border-radius: 10px ;
     width: 13vw;
-    height: 3.2vh;
+    height: 4vh;
     text-indent: 12%;
     border: 3px solid #9767A9;
    
@@ -94,3 +93,17 @@ input::placeholder {
     border: solid;
     width: 350px;
 }
+
+.container_icons{
+    width:50%;
+  display:flex;
+  align-items:center;
+  justify-content:space-evenly;
+
+  
+    
+}
+.icons{
+    width:2vw;
+    
+  }
