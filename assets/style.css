@@ -11,6 +11,7 @@ header {
     display: flex;
     align-items: center;
     height: 15vh;
+   
 }
 
 header nav {
@@ -21,14 +22,14 @@ header nav {
 header img {
     padding-left: 2vw;
     width: 8vw;
-   
+  
 }
 .menu {
-    width: 80%;
+    width: 100%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     padding-right: 2vw;
-  
+    align-items: center;
 }
 
 .menuList {
@@ -38,8 +39,9 @@ header img {
 
 }
 
+
 .menuList a {
-    font-size: 18px;
+    font-size: 1.2vw;
     text-decoration: none;
     color: #9767A9;
 
@@ -55,55 +57,69 @@ header img {
 }
 
 input {
-    border-radius: 10px ;
+    border-radius: 50px ;
     width: 13vw;
     height: 4vh;
-    text-indent: 12%;
+    text-indent: 30px;
     border: 3px solid #9767A9;
    
 }
 
 input::placeholder {
+    font-size: 1.1vw;
     text-align: center;
     background-image: url('../assets/images/lupa.png');
     background-repeat: no-repeat;
-    background-position: 5%;
+    position:absolute;
+    top:50%;
+    left: 10%;
+    transform: translateY(-50%) ;
 
 }
+.container_icons{
+    width:10%;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+
+      
+  }
+  .icons{
+      width: 4vw;
+     
+  }
 
 .banner{
+    position: relative;
     display: flex;
-    justify-content: center;
-    background-image: url("../assets/images/cacho-man.png");
-    background-position: center;
-    background-size: cover;
-    height: 670px;
+    align-items: center;
+
 }
+.main-img{
+    width:100%;
+    position:relative;
+    z-index: -1;
+}
+
 .banner_title{
-    flex:1;
+    position: absolute;
+    width:100%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-left: 6vw;
+    align-items: center;
+    justify-content: space-evenly;
+    top: 30%;
 }
 .banner_title h1{
     color: #FFFFFF;
     font-family:'Playfair Display', serif; 
-    font-size: 100px;
-    border: solid;
-    width: 350px;
+    font-size: 4vw;
+    width: 30%;
+   
 }
 
-.container_icons{
-    width:50%;
-  display:flex;
-  align-items:center;
-  justify-content:space-evenly;
-
-  
-    
+.banner_title h2{
+    color: #FFFFFF;
+    font-size: 2vw;
+    font-weight: 300;
+    width: 30%;
 }
-.icons{
-    width:2vw;
-    
-  }
