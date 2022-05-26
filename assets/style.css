@@ -123,3 +123,33 @@ input::placeholder {
     font-weight: 300;
     width: 30%;
 }
+.sevenSteps{
+    height:40vh;
+    background-color: #9767A9;
+    position:relative;
+    display: flex;
+    align-items: center;
+}
+
+.container-steps{
+    position: absolute;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    top: 30%;
+
+}
+
+.container-steps h1{
+    color: #FFFFFF;
+    font-size: 2vw;
+    width: 35%;
+
+}
+
+.container-steps p{
+    width: 30%;
+    font-size: 1vw;
+    font-weight: 300;
+}  
