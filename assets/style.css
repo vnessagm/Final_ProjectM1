@@ -66,10 +66,7 @@ input::placeholder {
     text-align: center;
     background-image: url('../assets/images/lupa.png');
     background-repeat: no-repeat;
-    position:absolute;
-    top:50%;
-    left: 10%;
-    transform: translateY(-50%) ;
+    background-position: 5%;
 
 }
 .container_icons{
@@ -86,29 +83,30 @@ input::placeholder {
   }
 
 .banner{
-    position: relative;
+    width: 100%;
+    height: 85vh;
+    background-image: url('../assets/images/cacho-man.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
+    background-position-x: center;
+    justify-content:space-evenly;
+    
 
-}
-.main-img{
-    width:100%;
-    position:relative;
-    z-index: -1;
 }
 
 .banner_title{
-    position: absolute;
-    width:100%;
+    height: 80%;
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    top: 30%;
+    justify-content: space-around;
 }
 .banner_title h1{
     color: #FFFFFF;
     font-family:'Playfair Display', serif; 
-    font-size: 4vw;
+    font-size: 6vw;
     width: 30%;
    
 }
@@ -119,14 +117,13 @@ input::placeholder {
     font-weight: 300;
     width: 30%;
 }
-@media (max-width:600px){
+@media (max-width:400px){
     nav, input, .container_icons{
         display: none;
 
     }
     .menuMobile{
         display: initial;
-    
         height: 100%;
 
     }
@@ -136,6 +133,7 @@ input::placeholder {
     .menu{
        
         height: 100%;
+    
         
     }
     header{
@@ -145,62 +143,117 @@ input::placeholder {
         position: absolute;
         left:50%;
         transform:translateX(-50%)
+
         
 
     }
 .logo img{
     width: 15vw;
+} 
+
+
+.banner{
+    background-position: 40%;
+    align-items: flex-start;
+}
+
+.banner_title{
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5vh;
+    align-items: flex-start;
+   
+    
+}
+.banner_title h1{
+    font-size: 14vw;
+     width: 57vw;
+}
+.banner_title h2{
+    width:90vw;
+    font-size: 8vw;
+}
+
+.container-steps{
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    
+    width:100%;
+
+
 }
 
 }
-    
 .sevenSteps{
-    height:40vh;
+    border: solid;
+    height:35vh;
     background-color: #9767A9;
-    position:relative;
     display: flex;
-    align-items: center;
+
 }
 
 .container-steps{
     position: absolute;
     width:100%;
     display: flex;
-    align-items: center;
     justify-content: space-evenly;
-    top: 30%;
+
 
 }
 
-.container-steps h1{
+.container-steps h2{
+    font-family:'Playfair Display', serif; 
     color: #FFFFFF;
-    font-size: 2vw;
-    width: 35%;
+    font-size: 4vw;
+    width: 57vw;
+
 
 }
 
 .container-steps p{
-    width: 30%;
-    font-size: 1vw;
+    color: #FFFFFF;
+    width: 32vw;
+    font-size: 1.2vw;
     font-weight: 300;
+    margin-top: 4vh;
 }  
+
+
 .images-left{
-    width:40%;
+    width:47%;
     border:solid;
+    position:absolute;
+    top: 110%;
+    left: 5%;
+    
+
 }
 .images-left img{
     width:100%;
+  
+  
 }
 
 .textSteps{
     background-color: #9767A9;
-    width:60%
-}
+    width:70%;
+    position:absolute;
+    top: 80%;
+    left: 10%;
+    height: 60vh;
+}   
 .textSteps h2{
+    border: solid;
+    margin: 2vh;
     color:#FFFFFF;
+    font-size: 2.2vw;
+    font-family:'Playfair Display', serif; 
 }
 .textSteps p{
-    font-size:1.8vw;
+    margin: 2vh;
+    font-size:1.4vw;
     font-weight: 300;
     color:#FFFFFF;
 
