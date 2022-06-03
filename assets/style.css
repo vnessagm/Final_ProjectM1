@@ -22,7 +22,9 @@ header nav {
 
 }
 
-
+.logo{
+    margin-left: 2vw;
+}
 
 .menu {
     width: 100%;
@@ -121,6 +123,275 @@ input::placeholder {
     font-weight: 300;
     width: 25%;
 }
+
+.secondSection{
+    height: 45vh;
+    background-color:#9767A9;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.secondSection--title{
+    font-family:'Playfair Display', serif; 
+    color: #FFFFFF;
+    font-size: 4vw;
+    width: 57vw;
+    
+}
+.secondSection--paragraph{
+    color: #FFFFFF;
+    width: 32vw;
+    font-size: 1.2vw;
+    font-weight: 300;
+    margin-top: 4vh;
+
+}
+
+.mobileSection{
+    display: none;
+}
+.sevenSteps{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    
+
+}
+.container_box--img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    height: 400vh;
+    
+}
+.sevenSteps figure{
+    height: 40.4%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+.firstStep--text{
+    background-color: #9767A9;
+    position:absolute;
+    top:40%;
+    right: 20%;
+    width:70%
+}
+.firstStep--text h2{
+    width: 24vw;
+    margin: 2vh;
+    color:#FFFFFF;
+    font-size: 2.2vw;
+    font-family:'Playfair Display', serif; 
+}
+.firstStep--text p{
+    margin: 2vh;
+    font-size:1.2vw;
+    font-weight: 300;
+    color:#FFFFFF;
+}
+.firstStep--fig{
+    position:absolute;
+    top:-4%;
+}
+
+.secondStep--text{
+    background-color: #9767A9;
+    position:absolute;
+    top:35%;
+    right: 13%;
+    width:70%
+
+}
+
+.secondStep--text h2{
+    width: 24vw;
+    margin: 2vh;
+    color:#FFFFFF;
+    font-size: 2.2vw;
+    font-family:'Playfair Display', serif; 
+
+}
+
+.secondStep--text p{
+    margin: 2vh;
+    font-size:1.2vw;
+    font-weight: 300;
+    color:#FFFFFF;
+
+}
+
+
+.secondStep--fig{
+    top:10%;
+}
+
+.thirdStep--fig{
+    right:0.2%;
+    top: 2%;
+}
+
+.thirdStep--text{
+    background-color: #9767A9;
+    position:absolute;
+    top:35%;
+    right: 13%;
+    width:70%    
+
+}
+
+.thirdStep--text h2{
+    width: 24vw;
+    margin: 2vh;
+    color:#FFFFFF;
+    font-size: 2.2vw;
+    font-family:'Playfair Display', serif; 
+
+}
+
+.thirdStep--text p{
+    margin: 2vh;
+    font-size:1.2vw;
+    font-weight: 300;
+    color:#FFFFFF;
+
+}
+.fourthStep--fig{
+    top:5%;
+}
+
+
+.fourthStep--text{
+    background-color: #9767A9;
+    position:absolute;
+    top:35%;
+    right: 13%;
+    width:70%    
+
+
+}
+
+.fourthStep--text h2{
+    width: 24vw;
+    margin: 2vh;
+    color:#FFFFFF;
+    font-size: 2.2vw;
+    font-family:'Playfair Display', serif; 
+
+}
+
+.fourthStep--text p{
+    margin: 2vh;
+    font-size:1.2vw;
+    font-weight: 300;
+    color:#FFFFFF;
+
+}
+
+
+.fifthStep--text{
+    background-color: #9767A9;
+    position:absolute;
+    top:36%;
+    right: 13%;
+    width:70%    
+}
+
+.fifthStep--text h2{
+    width: 24vw;
+    margin: 2vh;
+    color:#FFFFFF;
+    font-size: 2.2vw;
+    font-family:'Playfair Display', serif; 
+
+}
+
+.fifthStep--text p{
+    margin: 2vh;
+    font-size:1.2vw;
+    font-weight: 300;
+    color:#FFFFFF;
+}
+
+.fifthStep--fig{
+    top:5%;
+}
+
+.sixthStep--text{
+    background-color: #9767A9;
+    position:absolute;
+    top:45%;
+    right: 13%;
+    width:70%   
+}
+
+.sixthStep--text h2{
+    width: 24vw;
+    margin: 2vh;
+    color:#FFFFFF;
+    font-size: 2.2vw;
+    font-family:'Playfair Display', serif; 
+
+}
+.sixthStep--text p{
+    margin: 2vh;
+    font-size:1.2vw;
+    font-weight: 300;
+    color:#FFFFFF;
+    
+}
+.seventhStep--text{
+    background-color: #9767A9;
+    position:absolute;
+    top:35%;
+    right: 13%;
+    width:70%   
+   
+
+}
+
+.sixthStep--fig{
+    top:-4%;
+}
+
+.seventhStep--text h2{
+    width: 24vw;
+    margin: 2vh;
+    color:#FFFFFF;
+    font-size: 2.2vw;
+    font-family:'Playfair Display', serif; 
+
+}
+
+
+.seventhStep--text p{
+    margin: 2vh;
+    font-size:1.2vw;
+    font-weight: 300;
+    color:#FFFFFF;
+
+}
+
+.seventhStep--fig{
+    top:-4%;
+    right:4.2%;
+}
+
+.containerHair{
+    position:relative;
+    top:10%;
+}
+
+.galleryImg{
+    display: flex;
+}
+
+/* Responsive 400px */
+
 @media (max-width:400px){
     nav, input, .container_icons { 
         display: none;
@@ -135,7 +406,6 @@ input::placeholder {
         width: 100%;
     }
     .menu{
-       
         height: 100%;
     
         
@@ -191,7 +461,7 @@ input::placeholder {
 }
 .mobileSection--title{
     font-family: 'Playfair Display', serif;
-    width: 69.5vw;
+    width: 87vw;
     color: #FFFFFF;
 }
 .containerText{
@@ -221,156 +491,170 @@ input::placeholder {
     font-weight: 300;
     color: #FFFFFF;
     }
-   
-    .secondSection--title{
+
+    .secondSection{
         display: none;
-
     }
-
-    .secondSection--paragraph{
-       display: none;
-    }
-}
-
-
-
-.images-left{
-    width:47%;
-    position:relative;
-    top: -120px;
-    right: -3%;
     
+   .container_box--img{
+       height: auto;
 
-}
-.images-left img{
-    width:100%;
-  
-  
-}
-.steps-img{
-    margin-bottom: 80px;
-}
+   }
+   .sevenSteps{
+       flex-direction: column;
+   }
 
-.textSteps{
-    background-color: #9767A9;
-    width:70%;
-    position:absolute;
-    top: 15%;
-    right: 20%;
-    height: 540px;
-}   
-
-.steps h2{
-    width: 24vw;
-    margin: 2vh;
-    color:#FFFFFF;
-    font-size: 2.2vw;
-    font-family:'Playfair Display', serif; 
-}
-.steps p{
-    margin: 2vh;
-    font-size:1.2vw;
-    font-weight: 300;
-    color:#FFFFFF;
-
-}
-
-.textSteps-third{
-    background-color: #9767A9;
-    width:70%;
-    position:absolute;
-    height: 360px;
-    top: 50%;
-    left: 10%;
-}
-
-.textSteps-third h2{
-    width: 19vw;
+   .firstStep--fig{
+       top:0;
     
-}
-.textSteps-fifth{
-    background-color: #9767A9;
-    width:70%;
-    position:absolute;
-    height: 460px;
-    top: 82%;
-    left: 10%;
-}
+   }
 
-.images-right{
-    position: absolute;
-    width: 47%;
-    top: 180%;
-    left: 50%;
+   .sevenSteps figure{
+       width:100%;
+       
+     
+   }
+
+   .firstStep--text{
+       top:55%;
+       right: 0;
+       height: 400px;
+       width:100%;
+   }
+   .firstStep--text h2{
+     width: 65vw;
+     font-size: 6vw;
     
+   }
 
+   .firstStep--text p{
+       font-size:4vw;
+   }
+
+   .secondStep--fig{
+      margin-top: 300px;
+   }
+   .thirdStep--fig{
+      margin-top: 380px;
+   }
+
+   .fourthStep--fig{
+    margin-top: 300px;
+   }
+   .fifthStep--fig{
+    margin-top: 300px;
+   }
+   .sixthStep--fig{
+    margin-top: 300px;
+   }
+   .seventhStep--fig{
+    margin-top: 300px;
+   }
+   .containerHair{
+       display: flex;
+       justify-content: center;
+       margin-top: 50px;
+   }
+.hair{
+    width:60%
 }
-
-.images-right img{
+   .secondStep--text{
+    top:80%;
+    right: 0;
+    height: 400px;
     width:100%;
 }
 
-.textSteps-second{
-    background-color: #9767A9;
-    width:70%;
-    position:absolute;
-    height: 430px;
-    top: 12.5%;
-    left: 15%
+.secondStep--text h2{
+    width: 65vw;
+    font-size: 6vw;
 
 }
 
-.textSteps-fourth{
-    background-color: #9767A9;
-    width:70%;
-    position:absolute;
-    height: 350px;
-    top: 45%;
-    left: 15%
+.secondStep--text p{
+    font-size:4vw;
+}
+
+.thirdStep--text{
+    top:70%;
+    right: 0;
+    height: 300px;
+    width:100%;
 
 }
 
-.textSteps-fourth h2{
-    width:40vw;
+.thirdStep--text h2{
+    width: 52vw;
+    font-size: 6vw;
+
+}
+.thirdStep--text p{
+    font-size:4vw;
 }
 
-.textSteps-sixth{
-    background-color: #9767A9;
-    width:70%;
-    position:absolute;
-    height: 350px;
-    top: 76%;
-    left: 15%
+.fourthStep--text{
+    top:75%;
+    right: 0;
+    height: 340px;
+    width:100%;
+
 }
+.fourthStep--text h2{
+    width: 52vw;
+    font-size: 6vw;
 
 
-.galleryImg{
-    display: flex;
 }
 
-.secondSection{
-    height: 45vh;
-    background-color:#9767A9;
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-evenly;
+.seventhStep--text h2{
+    width: 52vw;
+    font-size: 6vw;
 }
-.secondSection--title{
-    font-family:'Playfair Display', serif; 
-    color: #FFFFFF;
-    font-size: 4vw;
-    width: 57vw;
+
+.fifthStep--text h2{
+    width: 52vw;
+    font-size: 6vw;
+}
+
+.sixthStep--text h2{
+    width: 52vw;
+    font-size: 6vw;
+}
+.fifthStep--text{
+    right: 0;
+    height: 400px;
+    width:100%;
+}
+.sixthStep--text{
+    right: 0;
+    height: 400px;
+    width:100%;
+
+}
+
+.fourthStep--text p{
+    font-size:4vw;
+}
+
+.fifthStep--text p{
+    font-size:4vw;
+}
+.sixthStep--text p{
+    font-size:4vw;
+}
+
+.sevenStep--text p{
+        font-size:4vw;
     
 }
-.secondSection--paragraph{
-    color: #FFFFFF;
-    width: 32vw;
-    font-size: 1.2vw;
-    font-weight: 300;
-    margin-top: 4vh;
 
+
+
+.seventhStep--text{
+    right: 0;
+    /* height: 400px; */
+    width:100%;
 }
 
-.mobileSection{
-    display: none;
 }
+   
