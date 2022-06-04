@@ -196,7 +196,7 @@ input::placeholder {
 }
 .firstStep--fig{
     position:absolute;
-    top:-4%;
+    top:-3%;
 }
 
 .secondStep--text{
@@ -232,7 +232,7 @@ input::placeholder {
 
 .thirdStep--fig{
     right:0.2%;
-    top: 2%;
+    top:-10%;
 }
 
 .thirdStep--text{
@@ -318,7 +318,7 @@ input::placeholder {
 }
 
 .fifthStep--fig{
-    top:5%;
+    top:-20%;
 }
 
 .sixthStep--text{
@@ -377,13 +377,13 @@ input::placeholder {
 }
 
 .seventhStep--fig{
-    top:-4%;
-    right:4.2%;
+    top:-20%;
+    right:2%;
 }
 
 .containerHair{
     position:relative;
-    top:10%;
+    top:-5%;
 }
 
 .galleryImg{
@@ -392,7 +392,7 @@ input::placeholder {
 
 /* Responsive 400px */
 
-@media (max-width:400px){
+@media (max-width:500px){
     nav, input, .container_icons { 
         display: none;
 
@@ -457,9 +457,10 @@ input::placeholder {
     color: #FFFFFF;
     align-items: center;
     justify-content: space-evenly;
-    height: 60vh
+    height: 120vh;
 }
 .mobileSection--title{
+    margin-top: 30px;
     font-family: 'Playfair Display', serif;
     width: 87vw;
     color: #FFFFFF;
@@ -467,7 +468,7 @@ input::placeholder {
 .containerText{
     display: flex;
     flex-direction: column;
-    height: 45vh;
+    height: 65vh;
     justify-content: space-between;
     
     
@@ -482,7 +483,7 @@ input::placeholder {
     
     .paragraphThree{
     width: 69.5vw;
-    height: 16vh;
+    /* height: 16vh; */
     
     }
     
@@ -505,7 +506,7 @@ input::placeholder {
    }
 
    .firstStep--fig{
-       top:0;
+     margin-top: 30px;
     
    }
 
@@ -553,10 +554,10 @@ input::placeholder {
    .containerHair{
        display: flex;
        justify-content: center;
-       margin-top: 50px;
+       margin-top: 200px;
    }
 .hair{
-    width:60%
+    width:40%
 }
    .secondStep--text{
     top:80%;
@@ -600,24 +601,24 @@ input::placeholder {
 
 }
 .fourthStep--text h2{
-    width: 52vw;
+    width: 80vw;
     font-size: 6vw;
 
 
 }
 
 .seventhStep--text h2{
-    width: 52vw;
+    width: 70vw;
     font-size: 6vw;
 }
 
 .fifthStep--text h2{
-    width: 52vw;
+    width: 70vw;
     font-size: 6vw;
 }
 
 .sixthStep--text h2{
-    width: 52vw;
+    width: 70vw;
     font-size: 6vw;
 }
 .fifthStep--text{
@@ -643,7 +644,7 @@ input::placeholder {
     font-size:4vw;
 }
 
-.sevenStep--text p{
+.seventhStep--text p{
         font-size:4vw;
     
 }
@@ -652,9 +653,17 @@ input::placeholder {
 
 .seventhStep--text{
     right: 0;
-    /* height: 400px; */
+    top:70%;
     width:100%;
 }
 
 }
    
+
+@media screen and (min-device-width:1920px) and (max-device-width:2830){
+    .firstStep--text{
+        top:30%;
+
+    }
+
+}
