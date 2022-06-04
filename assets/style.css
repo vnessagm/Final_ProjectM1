@@ -387,10 +387,90 @@ input::placeholder {
 }
 
 .galleryImg{
+    margin-left: 10px ;
+    margin-top: 980px;
+    display: flex;
+    border: red solid;
+}
+
+.small_pics{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.small_pics img{
+    width: 260px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #9767A9;
+    height: 15vh;
+}
+
+.container_ref{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    width:60%;
+    
+}
+.container_ref p{
+    color: #FFFFFF;
+    font-size: 1vw;
+
+}
+
+.container_buttons{
+    justify-content: space-evenly;
+    width:32%;
     display: flex;
 }
 
-/* Responsive 400px */
+.container_buttons p{
+    font-weight: 300;
+    color: #FFFFFF;
+    width: 5%;
+    font-size: 1.4vw;
+
+}
+.container_left_arrow{
+    display: flex;
+    align-items: center;
+
+}
+
+.container_top_arrow{
+    display: flex;
+    align-items: center;
+}
+.container_top_arrow p{
+    width: 60%;
+}
+
+.container_right_arrow{
+    display:flex;
+    align-items: center;
+
+}
+.container_right_arrow p{
+    width:45%
+  
+}
+
+.container_buttons img{
+    margin: 10px;
+    width:38px;
+    height:35px;
+}
+.container_buttons figure:hover{
+    background-color: rgb(255, 255, 255, 0.4)
+}
+
+/* Responsive 500px */
 
 @media (max-width:500px){
     nav, input, .container_icons { 
