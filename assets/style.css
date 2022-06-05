@@ -387,31 +387,55 @@ input::placeholder {
 }
 
 .galleryImg{
+    justify-content: space-evenly;
     margin-left: 10px ;
     margin-top: 980px;
     display: flex;
-    border: red solid;
+    margin-bottom: 30px;
 }
 
 .container_kinggloria{
+    justify-content: space-evenly;
     display: flex;
     flex-direction: column;
 }
+
+.container_kinggloria img{
+    width:250px;
+}
+
 .container_snoop{
+    justify-content: space-evenly;
     display: flex;
     flex-direction: column;
 } 
 
+.container_snoop img{
+    width:160px;
+}
+
 .small_pics{
+    justify-content: space-evenly;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    
 }
 
 .small_pics img{
-    width: 260px;
+    width: 160px;
+}
+.color{
+    width:250px;
 }
 
+.container_beard{
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+}
+.container_beard img{
+    width:160px;
+}
 
 
 .footer_desktop{
@@ -479,6 +503,10 @@ input::placeholder {
 }
 .container_buttons figure:hover{
     background-color: rgb(255, 255, 255, 0.4)
+}
+
+.container_gallery_mobile{
+    display: none;
 }
 
 .footer_mobile{
@@ -760,6 +788,7 @@ input::placeholder {
     height: 30vh;
 
 }
+
 .container_icons_footer_mobile{
     justify-content: space-between;
     display: flex;
@@ -798,6 +827,90 @@ input::placeholder {
     font-size: 2.6vw;
     font-weight: 300;
 }
+.galleryImg{
+    display: none;
+}
+.container_gallery_mobile{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.top_part{
+    width: 100%;
+     display: flex;
+    justify-content: space-evenly; 
+   
+}
+.king_mobile{
+    width:160px;
+
+}
+.small_top{
+    justify-content: space-evenly;
+    width: 110%;
+    height: 10vh;
+    display: flex;
+}
+.small_top img{
+    width:68px;
+    height:75px;
+}
+.side_king{
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+}
+.tais_mobile{
+    width:146px;
+    height:137px;
+}
+.container_gloria{
+    margin-left:45px;
+
+}
+.container_gloria img{
+    width: 350px;
+    height:180px;
+}
+}
+.bottom_part{
+    width: 100%;
+     display: flex;
+    justify-content: space-evenly; 
+    margin-bottom: 1%;
+   
+}
+.side_men{
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+}
+.two_man{
+
+   margin-left: 5px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    display:flex
+}
+.two_man img{
+    width:67px;
+    height:147px;
+}
+.two_small{
+    margin-left: 5px;
+    flex-direction: row;
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.two_small img{
+    width:68px;
+}
+.container_cigar img{
+    margin-right: 20px;
+    width:180px;
+    height:220px;
+
 }
    
 
