@@ -790,13 +790,13 @@ input::placeholder {
 }
 
 .container_icons_footer_mobile{
-    justify-content: space-between;
+    justify-content: space-evenly;
     display: flex;
     width:100%;
 }
 
 .icons_footer{
-    margin-left:10vw;
+    margin-top:3vh;
     height: 10vh;
     width:30%;
     display:flex;
@@ -807,12 +807,14 @@ input::placeholder {
     width:8vw;
 }
 .footer_arrows{
+    margin-top:3vh;
+    height: 10vh;
     justify-content: space-around;
     display: flex;
     width:30%;
 }
 .footer_arrows img{
-    width:6vw;
+    width:8vw;
 }
 .text_footermobile{
      margin-left: 10vw;
@@ -865,7 +867,7 @@ input::placeholder {
     height:137px;
 }
 .container_gloria{
-    margin-left:45px;
+    margin-left:8.9vw;
 
 }
 .container_gloria img{
@@ -887,7 +889,7 @@ input::placeholder {
 }
 .two_man{
 
-   margin-left: 5px;
+   margin-left: 1.2vw;
     flex-direction: row;
     justify-content: space-evenly;
     display:flex
@@ -907,7 +909,7 @@ input::placeholder {
     width:68px;
 }
 .container_cigar img{
-    margin-right: 20px;
+    
     width:180px;
     height:220px;
 
